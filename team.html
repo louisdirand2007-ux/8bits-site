@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'équipe — 8 Bits Dreamers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="nav">
+            <div class="logo">
+                <img src="img/Logo.png" alt="Logo 8 Bits Dreamers">
+                <span class="logo-text">8 Bits Dreamers</span>
+            </div>
+
+            <nav class="menu">
+                <a href="index.html" class="menu-item home-icon" aria-label="Accueil">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                    </svg>
+                </a>
+                
+                <button id="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <div id="dropdown-menu" role="menu">
+                    <a href="entreprise.html" role="menuitem">
+                        <span class="menu-icon">👥</span>
+                        À propos
+                    </a>
+                    <a href="project.html" role="menuitem">
+                        <span class="menu-icon">🎮</span>
+                        Nos projets
+                    </a>
+                    <a href="contact.html" role="menuitem">
+                        <span class="menu-icon">📱</span>
+                        Nous suivre
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+        <div class="page-hero-bg"></div>
+        <div class="page-hero-overlay"></div>
+        
+        <div class="page-hero-content">
+            <div class="breadcrumb">
+                <a href="index.html">Accueil</a>
+                <span class="separator">/</span>
+                <a href="entreprise.html">À propos</a>
+                <span class="separator">/</span>
+                <span>L'équipe</span>
+            </div>
+            
+            <h1 class="page-title">
+                <span class="title-accent">Rencontrez</span><br>
+                les créateurs
+            </h1>
+            
+            <p class="page-subtitle">
+                Les talents passionnés derrière 8 Bits Dreamers
+            </p>
+        </div>
+    </section>
+
+    <!-- CONTENU -->
+    <main>
+
+        <!-- INTRO ÉQUIPE -->
+        <section class="content-section">
+            <div class="team-intro reveal">
+                <div class="section-label centered">Notre collectif</div>
+                <h2 class="section-title centered">Une équipe unie par la passion</h2>
+                <p class="team-intro-text">
+                    8 Bits Dreamers est composé de créatifs multidisciplinaires qui partagent 
+                    une vision commune : créer des expériences vidéoludiques uniques et mémorables. 
+                    Chaque membre apporte son expertise et sa créativité pour donner vie à nos projets.
+                </p>
+            </div>
+        </section>
+
+        <!-- MEMBRES DE L'ÉQUIPE -->
+        <section class="content-section dark">
+            <div class="team-grid">
+                
+                <!-- Membre 1 -->
+                <div class="team-member-card reveal">
+                    <div class="member-image">
+                        <div class="member-avatar">
+                            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                        </div>
+                        <div class="member-badge">Chef de projet</div>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">Maximilien Wiel</h3>
+                        <div class="member-role">Scénariste & Développeur</div>
+                        <p class="member-bio">
+                            Passionné de programmation, il donne vie aux mécaniques 
+                            de jeu et s'assure de la cohérence de l'histoire.
+                        </p>
+                        <div class="member-skills">
+                            <span class="skill-tag">Écriture</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Dev</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Membre 2 -->
+                <div class="team-member-card reveal delay-1">
+                    <div class="member-image">
+                        <div class="member-avatar">
+                            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                        </div>
+                        <div class="member-badge artist">Designeur</div>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">Léo Mahé</h3>
+                        <div class="member-role">Pixel Artist</div>
+                        <p class="member-bio">
+                            Créateur de l'univers visuel, il conçoit les personnages, 
+                            environnements et animations qui donnent son identité au jeu.
+                        </p>
+                        <div class="member-skills">
+                            <span class="skill-tag">Pixel Art</span>
+                            <span class="skill-tag">Animation</span>
+                            <span class="skill-tag">Dev</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Membre 3 -->
+                <div class="team-member-card reveal delay-2">
+                    <div class="member-image">
+                        <div class="member-avatar">
+                            <img src="img/max.jpg" alt="Maximilien Wiel" style="width:100%; height:100%; object-fit:cover; border-radius:50%;">
+                        </div>
+                        <div class="member-badge sound">Map & Sound</div>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">Jean Briant</h3>
+                        <div class="member-role">Sound Design & Maps</div>
+                        <p class="member-bio">
+                            Responsable de la création de la carte ainsi que des musiques
+                            qui immergent les joueurs dans l'univers d'Aearon.
+                        </p>
+                        <div class="member-skills">
+                            <span class="skill-tag">Tilled</span>
+                            <span class="skill-tag">Audio</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Membre 4 -->
+                <div class="team-member-card reveal">
+                    <div class="member-image">
+                        <div class="member-avatar">
+                            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                        </div>
+                        <div class="member-badge writer">Site internet & Menu</div>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">Louis Dirand</h3>
+                        <div class="member-role">site et menu</div>
+                        <p class="member-bio">
+                            Responsable du site internet de la création du menu
+                            et de la création de la jacquette et de l'afffiche.
+                        </p>
+                        <div class="member-skills">
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+
+        <!-- VALEURS COLLABORATION -->
+        <section class="content-section">
+            <div class="collab-section reveal">
+                <div class="collab-content">
+                    <div class="section-label">Notre méthode</div>
+                    <h2 class="section-title">Collaboration & créativité</h2>
+                    <p class="section-description">
+                        Nous croyons en la force du travail d'équipe. Chaque membre contribue 
+                        avec son expertise unique, et c'est cette synergie qui fait naître des 
+                        projets exceptionnels. Nous communiquons constamment, itérons ensemble 
+                        et partageons une vision commune de qualité.
+                    </p>
+                    
+                    <div class="collab-stats">
+                        <div class="collab-stat">
+                            <div class="stat-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                </svg>
+                            </div>
+                            <div class="stat-info">
+                                <div class="stat-value">100%</div>
+                                <div class="stat-label">Remote-friendly</div>
+                            </div>
+                        </div>
+                        
+                        <div class="collab-stat">
+                            <div class="stat-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                                </svg>
+                            </div>
+                            <div class="stat-info">
+                                <div class="stat-value">∞</div>
+                                <div class="stat-label">Créativité</div>
+                            </div>
+                        </div>
+                        
+                        <div class="collab-stat">
+                            <div class="stat-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                </svg>
+                            </div>
+                            <div class="stat-info">
+                                <div class="stat-value">Agile</div>
+                                <div class="stat-label">Workflow</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA FINAL -->
+        <section class="cta-section">
+            <div class="cta-content reveal">
+                <h2 class="cta-title">Suivez notre aventure</h2>
+                <p class="cta-text">
+                    Rejoignez notre communauté pour découvrir les coulisses de nos projets 
+                    et échanger avec l'équipe
+                </p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn-primary">
+                        <span>Nous suivre</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </a>
+                    <a href="project.html" class="btn-secondary">
+                        Découvrir nos projets
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="img/Logo.png" alt="8 Bits Dreamers" class="footer-logo">
+                <div>
+                    <div class="footer-title">8 Bits Dreamers</div>
+                    <div class="footer-tagline">Collectif créatif indépendant</div>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <a href="entreprise.html">À propos</a>
+                <a href="project.html">Projets</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>© 2025 8 Bits Dreamers — Tous droits réservés</p>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script>
+        // Intersection Observer pour les animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Menu hamburger
+        const menuToggle = document.getElementById('menu-toggle');
+        const dropdownMenu = document.getElementById('dropdown-menu');
+
+        menuToggle.addEventListener('click', () => {
+            const isExpanded = menuToggle.getAttribute('aria-expanded') === 'true';
+            menuToggle.setAttribute('aria-expanded', !isExpanded);
+            menuToggle.classList.toggle('active');
+            dropdownMenu.classList.toggle('active');
+        });
+
+        // Fermer le menu en cliquant ailleurs
+        document.addEventListener('click', (e) => {
+            if (!menuToggle.contains(e.target) && !dropdownMenu.contains(e.target)) {
+                menuToggle.classList.remove('active');
+                dropdownMenu.classList.remove('active');
+                menuToggle.setAttribute('aria-expanded', 'false');
+            }
+        });
+    </script>
+
+</body>
+</html>
